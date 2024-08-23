@@ -16,5 +16,4 @@ export class RecipeListComponent {
   onRecipeSelected(recipe: Recipe) {
     this.recipeWasSelected.emit(recipe);
   }
-
 }
